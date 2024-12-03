@@ -52,8 +52,21 @@ print("\n")
 
 print("*** PROBLEM 4.0: BASEBALL WINNERS POSITION")
 // Imagine you're on a baseball team nearing the end of the season. Create a leaguePosition constant with a value of 1. Using a switch statement, print "Champions!" if the leaguePosition is 1 (case 1), "Runners up" if the value is 2 (case 2), "Third place" if the value is 3 (case 3), and "Bad season!" in all other cases.
+    let leaguePosition = 1
+switch leaguePosition {
+case 1 :
+    print("champions")
     
+case 2 :
+    print("Runners up")
+    
+case 3 :
+    print("Third place")
 
+default:
+    print("bad season!")
+    
+}
 //Test your code by changing leaguePosition values and observe the results.
 
 //Now format the code above. How? Select the code (highlight) and use CONTROL-I. It usually corrects it to the
@@ -65,7 +78,16 @@ print("*** PROBLEM 4.1: MEDAL WINNERS")
     
     
 // Write a new switch statement that prints "Medal winner" if leaguePosition is within the range of 1-3 (case 1, case 2, case 3). Otherwise, print "No medal awarded" (default).
-    
+switch leaguePosition {
+case 1 :
+    print("medal winner")
+case 2 :
+    print("medal winner")
+case 3 :
+    print("medal winner")
+default:
+    print("No medal awarded")
+}
     
 //Be sure test each case code by changing leaguePosition values
 
@@ -105,7 +127,7 @@ print("*** PROBLEM 4.2: HEART RANGE STATEMENTS")
  161-180: "You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions."
  181-200: "You are in the Maximum zone. Activity in this zone helps fit athletes develop speed."
  If currentHR is above the listed zones, print some kind of warning asking the user to slow down (default).
- 
+ xxx
  */
 
 //First declare a constant currentHR and for now give it a value of 128.
