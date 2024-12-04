@@ -129,5 +129,23 @@ print("*** PROBLEM 4.2: HEART RANGE STATEMENTS")
  If currentHR is above the listed zones, print some kind of warning asking the user to slow down (default).
  xxx
  */
+let myCurrentHR = 100
+switch myCurrentHR {
+case 100-120:
+    print("you are in the very light zone. Activity in zone help with recovery")
+case 121-140:
+    print("You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning")
+case 141-160:
+    print("You are in the Moderate zone. Activity in this zone helps improve aerobic fitness.")
+case 161-180:
+    print("You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions.")
+case 181-200:
+    print("You are in the Maximum zone. Activity in this zone helps fit athletes develop speed.")
+default:
+    print("Woah! slow down or find a good cardiologist.")
+    
+}
+
+
 
 //First declare a constant currentHR and for now give it a value of 128.
